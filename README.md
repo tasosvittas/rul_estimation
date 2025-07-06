@@ -10,10 +10,10 @@ This project applies machine learning techniques (Random Forest) to predict the 
 The CMAPSS dataset includes sensor readings from turbofan engines over time, under various operating conditions. Each engine runs until failure. The goal is to predict how many cycles are left before failure (RUL).
 
 ### Files:
-Data Set: FD001 Train trjectories: 100 Test trajectories: 100 Conditions: ONE (Sea Level) Fault Modes: ONE (HPC Degradation)
-Data Set: FD002 Train trjectories: 260 Test trajectories: 259 Conditions: SIX Fault Modes: ONE (HPC Degradation)
-Data Set: FD003 Train trjectories: 100 Test trajectories: 100 Conditions: ONE (Sea Level) Fault Modes: TWO (HPC Degradation, Fan Degradation)
-Data Set: FD004 Train trjectories: 248 Test trajectories: 249 Conditions: SIX Fault Modes: TWO (HPC Degradation, Fan Degradation)
+Data Set: FD001 Train trjectories: 100 Test trajectories: 100 Conditions: ONE (Sea Level) Fault Modes: ONE (HPC Degradation)<br>
+Data Set: FD002 Train trjectories: 260 Test trajectories: 259 Conditions: SIX Fault Modes: ONE (HPC Degradation)<br>
+Data Set: FD003 Train trjectories: 100 Test trajectories: 100 Conditions: ONE (Sea Level) Fault Modes: TWO (HPC Degradation, Fan Degradation)<br>
+Data Set: FD004 Train trjectories: 248 Test trajectories: 249 Conditions: SIX Fault Modes: TWO (HPC Degradation, Fan Degradation)<br>
 
 - `train_FD001.txt`: Full sensor data for engines until failure.
 - `test_FD001.txt`: Partial data for engines currently in operation.
